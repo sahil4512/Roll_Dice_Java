@@ -25,8 +25,6 @@ public class MainActivity extends AppCompatActivity {
     private ImageView imageView1, imageView2;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("https://github.com/sahilkumardev"));
+                intent.setData(Uri.parse("https://github.com/sahilkumardev/Roll_Dice_Java"));
                 startActivity(intent);
             }
         });
