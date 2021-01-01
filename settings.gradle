@@ -1,0 +1,2 @@
+rootProject.name='Roll Dice Java'
+include ':app'
