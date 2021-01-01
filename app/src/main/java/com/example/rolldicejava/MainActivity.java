@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         imageView1 = findViewById(R.id.ImageView_1);
         imageView2 = findViewById(R.id.ImageView_2);
         github_link = findViewById(R.id.github_link);
+
 
         github_link.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
